@@ -1,0 +1,23 @@
+{
+  "name": "andressite",
+  "version": "1.0.0",
+  "description": "a website for andres",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjake07/AndresSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjake07/AndresSite/issues"
+  },
+  "homepage": "https://github.com/hjake07/AndresSite#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
