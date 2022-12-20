@@ -112,9 +112,16 @@ h3 {
     .sideNav {
         margin: 0 auto;
         width: 100%;
-
+    }
+    .carousel-indicators {
+margin: 0 auto;
     }
 
+}
+@media screen and (max-width: 600px) {
+    .carousel {
+        width: 400px;
+    }
 }
 button {
     border-radius: 5px;
