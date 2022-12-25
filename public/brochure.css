@@ -1,24 +1,24 @@
 .outerDiv {
     display: flex;
     flex-direction: row;
-    background-color: rgb(227, 215, 215);
     background-position: right;
     background-size: 1300px;
-    color: white;
     background-repeat: no-repeat;
 }
 .sideNav {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
     width: 40%;
-    background-color: #9B7E46;
+    background-color: #f9f8f6;
     height: fit-content;
     /* border-radius: 10px; */
-    color: white;
+    color: black;
     padding: 20px;
     position: relative;
     padding-bottom: 20px;
     border: 1px solid black;
+    margin: 20px;
 }
 .personName {
     text-decoration: underline;
@@ -34,7 +34,9 @@ footer {
     background-color: #F3C98B;
 }
 body {
-    background-color: #F3C98B;
+    background-color: rgb(223, 217, 217);
+    background-image: url('bground2.jpg');
+    background-size: cover;
 
 }
 /* .x {
@@ -56,6 +58,7 @@ h1 {
 
 } */
 .carousel {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     height: 600px;
     width: 700px;
     margin-top: 10px;
