@@ -11,7 +11,7 @@
     flex-direction: column;
     width: 40%;
     background-color: #f9f8f6;
-    height: 670px;
+    height: 770px;
     /* border-radius: 10px; */
     color: black;
     padding: 20px;
@@ -64,7 +64,7 @@ h1 {
     margin-top: 10px;
 }
 .height {
-height: 600px;
+height: 700px;
 width: 600px;
 object-fit: cover;
 }
@@ -105,7 +105,7 @@ h3 {
     padding-top: 20px;
     text-decoration: underline;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1190px) {
     .carousel {
         width: 500px;
     }
@@ -115,6 +115,7 @@ h3 {
     .sideNav {
         margin: 0 auto;
         width: 100%;
+        height: fit-content;
     }
     .carousel-indicators {
 margin: 0 auto;
